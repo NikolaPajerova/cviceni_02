@@ -18,12 +18,15 @@ Vytvoření bodu v historii projektu - ucelený soubor změň:
 (Zobrazení historie commitů: git log)
 
 Propojení Gitu s GitHubem: 
-  git remote add origin https://github.com/vaseJmeno/vasNazevGitHubRepository.git
+  git remote add origin https://github.com/vaseGitHubJmeno/vasNazevGitHubRepository.git
   git branch -M main
   git push -u origin main
 Přidání změn z Gitu na GitHub:
   git push
 
+Klonování vzdáleného repozitáře ke mně (půjdu do složky kam chci naklonovat):
+  git clone https://github.com/GitHubJmeno/nazevRepositoryKteryKlonujeme.git
+  
 Pokud na konci terminalu napsáno (END) a nelze psát vyskočíme pomocí klávesy q
 
 ##########################################################
