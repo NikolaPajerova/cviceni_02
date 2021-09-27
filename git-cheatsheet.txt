@@ -20,8 +20,9 @@ Vytvoření bodu v historii projektu - ucelený soubor změň:
 Propojení Gitu s GitHubem: 
   git remote add origin https://github.com/vaseJmeno/vasNazevGitHubRepository.git
   git branch -M main
-Přidání změn z Gitu na GitHub:
   git push -u origin main
+Přidání změn z Gitu na GitHub:
+  git push
 
 Pokud na konci terminalu napsáno (END) a nelze psát vyskočíme pomocí klávesy q
 
@@ -42,12 +43,13 @@ Když vytvořím nový projekt (jednorázově na začátku projektu):
   B) Propojím s GitHub repository:
     2. git remote add origin https://github.com/vaseGitHubJmeno/vasNazevGitHubRepository.git
     3. git branch -M main
+    4. git push -u origin main
 
 Když chci přidat změny (pravidelně s přidáváním změn):
   A) na Git:
     1. git add .
     2. git commit -m "Popis zmen"
   B) pak i na GitHub:
-    3. git push -u origin main
+    3. git push
 
 ##########################################################
