@@ -40,7 +40,7 @@ Když vytvořím nový projekt (jednorázově na začátku projektu):
   A) Vytvořím Git repository:
     1. git init
   B) Propojím s GitHub repository:
-    2. git remote add origin https://github.com/vaseJmeno/vasNazevGitHubRepository.git
+    2. git remote add origin https://github.com/vaseGitHubJmeno/vasNazevGitHubRepository.git
     3. git branch -M main
 
 Když chci přidat změny (pravidelně s přidáváním změn):
