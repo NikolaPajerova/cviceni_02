@@ -1,42 +1,53 @@
 ##########################################################
 PŘÍKAZY:
+Vypsat verzi gitu: 
+  git --version
+Nastavit jméno:
+  git config --global user.name "Jmeno Primeni" (jednorazove na zacatku)
+Nastavit mail:
+  git config --global user.email jmenoprimeni@gmail.com (jednorazove na zacatku)
+Zkontrolovat nastavené údaje:
+  git config --list
 
-Vypsat verzi gitu: git --version
-Nastavit jméno: git config --global user.name "Jmeno Primeni" (jednorazove na zacatku)
-Nastavit mail: git config --global user.email jmenoprimeni@gmail.com (jednorazove na zacatku)
-Zkontrolovat nastavené údaje: git config --list
-
-Inicializovat prázný repositář: git init
-Přidání všechny změňené soubory do commitu: git add .
-Vytvoření bodu v historii projektu - ucelený soubor změň: git commit -m "Naše commit message"
+Inicializovat prázný repositář:
+  git init
+Přidání všechny změňené soubory do commitu:
+  git add .
+Vytvoření bodu v historii projektu - ucelený soubor změň:
+  git commit -m "Naše commit message"
 (Zobrazení historie commitů: git log)
 
 Propojení Gitu s GitHubem: 
-1. git remote add origin https://github.com/vaseJmeno/vasNazevGitHubRepository.git
-2. git branch -M main
-Přidání změn z Gitu na GitHub: git push -u origin main
+  git remote add origin https://github.com/vaseJmeno/vasNazevGitHubRepository.git
+  git branch -M main
+Přidání změn z Gitu na GitHub:
+  git push -u origin main
 
 Pokud na konci terminalu napsáno (END) a nelze psát vyskočíme pomocí klávesy q
-##########################################################
 
+##########################################################
 TERMÍNY:
 Repositář/repository = úložiště jednoho projektu
 Commit = vytvoření bodu v historii projektu - ucelený soubor změň (commit message = popis našich změn)
 
 ##########################################################
-
 SITUACE:
 Když pracuji s Gitem poprvé:
-1. git config --global user.name "Jmeno Primeni"
-2. git config --global user.email jmenoprimeni@gmail.com
+  1. git config --global user.name "Jmeno Primeni"
+  2. git config --global user.email jmenoprimeni@gmail.com
 
 Když vytvořím nový projekt:
-1. git init
+  A) Vytvořím Git repository:
+    1. git init
+  B) Propojím s GitHub repository:
+    2. git remote add origin https://github.com/vaseJmeno/vasNazevGitHubRepository.git
+    3. git branch -M main
 
-Když chci přidat změny na Git:
-1. git add .
-2. git commit -m "Popis zmen"
-Když chci uložit změny i na GitHub:
-3. git push -u origin main
+Když chci přidat změny
+  A) na Git:
+    1. git add .
+    2. git commit -m "Popis zmen"
+  B) pak i na GitHub:
+    3. git push -u origin main
 
 ##########################################################
