@@ -36,14 +36,14 @@ Když pracuji s Gitem poprvé:
   1. git config --global user.name "Jmeno Primeni"
   2. git config --global user.email jmenoprimeni@gmail.com
 
-Když vytvořím nový projekt:
+Když vytvořím nový projekt (jednorázově na začátku projektu):
   A) Vytvořím Git repository:
     1. git init
   B) Propojím s GitHub repository:
     2. git remote add origin https://github.com/vaseJmeno/vasNazevGitHubRepository.git
     3. git branch -M main
 
-Když chci přidat změny
+Když chci přidat změny (pravidelně s přidáváním změn):
   A) na Git:
     1. git add .
     2. git commit -m "Popis zmen"
